@@ -13,6 +13,31 @@
 		963027821E5A4A0000D10F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963027801E5A4A0000D10F67 /* LaunchScreen.storyboard */; };
 		9630278D1E5A4A0000D10F67 /* New_Family_TreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630278C1E5A4A0000D10F67 /* New_Family_TreeTests.swift */; };
 		963027981E5A4A0000D10F67 /* New_Family_TreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963027971E5A4A0000D10F67 /* New_Family_TreeUITests.swift */; };
+		963027A61E5A4A2400D10F67 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963027A51E5A4A2400D10F67 /* HomeViewController.swift */; };
+		963027A81E5A4A4700D10F67 /* CordeliaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963027A71E5A4A4700D10F67 /* CordeliaViewController.swift */; };
+		963027AA1E5A4A5000D10F67 /* ChercheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963027A91E5A4A5000D10F67 /* ChercheViewController.swift */; };
+		9650F7D81E5A5F4D005848EA /* Cherche.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7D61E5A5F4D005848EA /* Cherche.png */; };
+		9650F7D91E5A5F4D005848EA /* Cordelia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7D71E5A5F4D005848EA /* Cordelia.png */; };
+		9650F7DE1E5A616C005848EA /* Gerome.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7DA1E5A616C005848EA /* Gerome.png */; };
+		9650F7DF1E5A616C005848EA /* Lon'qu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7DB1E5A616C005848EA /* Lon'qu.png */; };
+		9650F7E01E5A616C005848EA /* Severa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7DC1E5A616C005848EA /* Severa.png */; };
+		9650F7E11E5A616C005848EA /* Virion.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7DD1E5A616C005848EA /* Virion.png */; };
+		9650F7E31E5A6405005848EA /* CynthiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9650F7E21E5A6405005848EA /* CynthiaViewController.swift */; };
+		9650F7E51E5A641A005848EA /* LissaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9650F7E41E5A641A005848EA /* LissaViewController.swift */; };
+		9650F7E71E5A6423005848EA /* SumiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9650F7E61E5A6423005848EA /* SumiaViewController.swift */; };
+		9650F7F01E5A6F11005848EA /* Chrom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7E81E5A6F11005848EA /* Chrom.png */; };
+		9650F7F11E5A6F11005848EA /* Cynthia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7E91E5A6F11005848EA /* Cynthia.png */; };
+		9650F7F21E5A6F11005848EA /* Frederick.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7EA1E5A6F11005848EA /* Frederick.png */; };
+		9650F7F31E5A6F11005848EA /* Lissa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7EB1E5A6F11005848EA /* Lissa.jpg */; };
+		9650F7F41E5A6F11005848EA /* Lucina.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7EC1E5A6F11005848EA /* Lucina.png */; };
+		9650F7F51E5A6F11005848EA /* Morgan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7ED1E5A6F11005848EA /* Morgan.png */; };
+		9650F7F61E5A6F11005848EA /* Owain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7EE1E5A6F11005848EA /* Owain.png */; };
+		9650F7F71E5A6F11005848EA /* Robin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7EF1E5A6F11005848EA /* Robin.png */; };
+		9650F7F91E5A6F43005848EA /* Sumia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7F81E5A6F43005848EA /* Sumia.jpg */; };
+		9650F7FD1E5A7455005848EA /* Chromfacingleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7FA1E5A7455005848EA /* Chromfacingleft.png */; };
+		9650F7FE1E5A7455005848EA /* Lissa_Standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7FB1E5A7455005848EA /* Lissa_Standard.png */; };
+		9650F7FF1E5A7455005848EA /* Sumia new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F7FC1E5A7455005848EA /* Sumia new.png */; };
+		9650F8011E5A74E7005848EA /* Cynthia_Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650F8001E5A74E7005848EA /* Cynthia_Artwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +70,31 @@
 		963027931E5A4A0000D10F67 /* New Family TreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Family TreeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963027971E5A4A0000D10F67 /* New_Family_TreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Family_TreeUITests.swift; sourceTree = "<group>"; };
 		963027991E5A4A0000D10F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963027A51E5A4A2400D10F67 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		963027A71E5A4A4700D10F67 /* CordeliaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CordeliaViewController.swift; sourceTree = "<group>"; };
+		963027A91E5A4A5000D10F67 /* ChercheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChercheViewController.swift; sourceTree = "<group>"; };
+		9650F7D61E5A5F4D005848EA /* Cherche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cherche.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Cherche.png"; sourceTree = "<group>"; };
+		9650F7D71E5A5F4D005848EA /* Cordelia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cordelia.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Cordelia.png"; sourceTree = "<group>"; };
+		9650F7DA1E5A616C005848EA /* Gerome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gerome.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Gerome.png"; sourceTree = "<group>"; };
+		9650F7DB1E5A616C005848EA /* Lon'qu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lon'qu.png"; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Lon'qu.png"; sourceTree = "<group>"; };
+		9650F7DC1E5A616C005848EA /* Severa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Severa.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Severa.png"; sourceTree = "<group>"; };
+		9650F7DD1E5A616C005848EA /* Virion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Virion.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Virion.png"; sourceTree = "<group>"; };
+		9650F7E21E5A6405005848EA /* CynthiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CynthiaViewController.swift; sourceTree = "<group>"; };
+		9650F7E41E5A641A005848EA /* LissaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LissaViewController.swift; sourceTree = "<group>"; };
+		9650F7E61E5A6423005848EA /* SumiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumiaViewController.swift; sourceTree = "<group>"; };
+		9650F7E81E5A6F11005848EA /* Chrom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chrom.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Chrom.png"; sourceTree = "<group>"; };
+		9650F7E91E5A6F11005848EA /* Cynthia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cynthia.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Cynthia.png"; sourceTree = "<group>"; };
+		9650F7EA1E5A6F11005848EA /* Frederick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Frederick.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Frederick.png"; sourceTree = "<group>"; };
+		9650F7EB1E5A6F11005848EA /* Lissa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lissa.jpg; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Lissa.jpg"; sourceTree = "<group>"; };
+		9650F7EC1E5A6F11005848EA /* Lucina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lucina.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Lucina.png"; sourceTree = "<group>"; };
+		9650F7ED1E5A6F11005848EA /* Morgan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Morgan.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Morgan.png"; sourceTree = "<group>"; };
+		9650F7EE1E5A6F11005848EA /* Owain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Owain.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Owain.png"; sourceTree = "<group>"; };
+		9650F7EF1E5A6F11005848EA /* Robin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Robin.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Robin.png"; sourceTree = "<group>"; };
+		9650F7F81E5A6F43005848EA /* Sumia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sumia.jpg; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Sumia.jpg"; sourceTree = "<group>"; };
+		9650F7FA1E5A7455005848EA /* Chromfacingleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chromfacingleft.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Chromfacingleft.png"; sourceTree = "<group>"; };
+		9650F7FB1E5A7455005848EA /* Lissa_Standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lissa_Standard.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Lissa_Standard.png"; sourceTree = "<group>"; };
+		9650F7FC1E5A7455005848EA /* Sumia new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sumia new.png"; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Sumia new.png"; sourceTree = "<group>"; };
+		9650F8001E5A74E7005848EA /* Cynthia_Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cynthia_Artwork.png; path = "../../../../../../Volumes/TOSHIBA/Family Tree Images/Cynthia_Artwork.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +145,18 @@
 		963027761E5A49FC00D10F67 /* New Family Tree */ = {
 			isa = PBXGroup;
 			children = (
+				9650F7D51E5A5F3A005848EA /* Images */,
 				963027771E5A49FC00D10F67 /* AppDelegate.swift */,
+				963027A51E5A4A2400D10F67 /* HomeViewController.swift */,
 				9630277B1E5A49FD00D10F67 /* Main.storyboard */,
 				9630277E1E5A49FE00D10F67 /* Assets.xcassets */,
 				963027801E5A4A0000D10F67 /* LaunchScreen.storyboard */,
 				963027831E5A4A0000D10F67 /* Info.plist */,
+				9650F7E21E5A6405005848EA /* CynthiaViewController.swift */,
+				963027A71E5A4A4700D10F67 /* CordeliaViewController.swift */,
+				963027A91E5A4A5000D10F67 /* ChercheViewController.swift */,
+				9650F7E41E5A641A005848EA /* LissaViewController.swift */,
+				9650F7E61E5A6423005848EA /* SumiaViewController.swift */,
 			);
 			path = "New Family Tree";
 			sourceTree = "<group>";
@@ -120,6 +177,32 @@
 				963027991E5A4A0000D10F67 /* Info.plist */,
 			);
 			path = "New Family TreeUITests";
+			sourceTree = "<group>";
+		};
+		9650F7D51E5A5F3A005848EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9650F8001E5A74E7005848EA /* Cynthia_Artwork.png */,
+				9650F7FA1E5A7455005848EA /* Chromfacingleft.png */,
+				9650F7FB1E5A7455005848EA /* Lissa_Standard.png */,
+				9650F7FC1E5A7455005848EA /* Sumia new.png */,
+				9650F7F81E5A6F43005848EA /* Sumia.jpg */,
+				9650F7E81E5A6F11005848EA /* Chrom.png */,
+				9650F7E91E5A6F11005848EA /* Cynthia.png */,
+				9650F7EA1E5A6F11005848EA /* Frederick.png */,
+				9650F7EB1E5A6F11005848EA /* Lissa.jpg */,
+				9650F7EC1E5A6F11005848EA /* Lucina.png */,
+				9650F7ED1E5A6F11005848EA /* Morgan.png */,
+				9650F7EE1E5A6F11005848EA /* Owain.png */,
+				9650F7EF1E5A6F11005848EA /* Robin.png */,
+				9650F7DA1E5A616C005848EA /* Gerome.png */,
+				9650F7DB1E5A616C005848EA /* Lon'qu.png */,
+				9650F7DC1E5A616C005848EA /* Severa.png */,
+				9650F7DD1E5A616C005848EA /* Virion.png */,
+				9650F7D61E5A5F4D005848EA /* Cherche.png */,
+				9650F7D71E5A5F4D005848EA /* Cordelia.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +312,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9650F7F31E5A6F11005848EA /* Lissa.jpg in Resources */,
+				9650F7E11E5A616C005848EA /* Virion.png in Resources */,
+				9650F7D81E5A5F4D005848EA /* Cherche.png in Resources */,
 				963027821E5A4A0000D10F67 /* LaunchScreen.storyboard in Resources */,
 				9630277F1E5A49FE00D10F67 /* Assets.xcassets in Resources */,
+				9650F7F41E5A6F11005848EA /* Lucina.png in Resources */,
+				9650F7E01E5A616C005848EA /* Severa.png in Resources */,
+				9650F7F71E5A6F11005848EA /* Robin.png in Resources */,
+				9650F7D91E5A5F4D005848EA /* Cordelia.png in Resources */,
+				9650F7DE1E5A616C005848EA /* Gerome.png in Resources */,
+				9650F7F21E5A6F11005848EA /* Frederick.png in Resources */,
+				9650F7F61E5A6F11005848EA /* Owain.png in Resources */,
+				9650F7F51E5A6F11005848EA /* Morgan.png in Resources */,
+				9650F7FE1E5A7455005848EA /* Lissa_Standard.png in Resources */,
+				9650F7F11E5A6F11005848EA /* Cynthia.png in Resources */,
+				9650F7DF1E5A616C005848EA /* Lon'qu.png in Resources */,
 				9630277D1E5A49FD00D10F67 /* Main.storyboard in Resources */,
+				9650F7F01E5A6F11005848EA /* Chrom.png in Resources */,
+				9650F7FD1E5A7455005848EA /* Chromfacingleft.png in Resources */,
+				9650F7F91E5A6F43005848EA /* Sumia.jpg in Resources */,
+				9650F7FF1E5A7455005848EA /* Sumia new.png in Resources */,
+				9650F8011E5A74E7005848EA /* Cynthia_Artwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +359,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				963027781E5A49FC00D10F67 /* AppDelegate.swift in Sources */,
+				9650F7E31E5A6405005848EA /* CynthiaViewController.swift in Sources */,
+				963027A81E5A4A4700D10F67 /* CordeliaViewController.swift in Sources */,
+				9650F7E51E5A641A005848EA /* LissaViewController.swift in Sources */,
+				963027A61E5A4A2400D10F67 /* HomeViewController.swift in Sources */,
+				963027AA1E5A4A5000D10F67 /* ChercheViewController.swift in Sources */,
+				9650F7E71E5A6423005848EA /* SumiaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +609,7 @@
 				9630279E1E5A4A0000D10F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9630279F1E5A4A0000D10F67 /* Build configuration list for PBXNativeTarget "New Family TreeTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +618,7 @@
 				963027A11E5A4A0000D10F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963027A21E5A4A0000D10F67 /* Build configuration list for PBXNativeTarget "New Family TreeUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +627,7 @@
 				963027A41E5A4A0000D10F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
